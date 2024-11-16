@@ -1,12 +1,9 @@
 // ==UserScript==
 // @name         CodeHS Blackout
-// @namespace    http://tampermonkey.net/
-// @version      6.0
+// @version      1.6.1
 // @description  Makes white elements black
 // @author       eyesick2k7
 // @match        https://codehs.com/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=codehs.com
-// @grant        none
 // ==/UserScript==
 
 (function() {
