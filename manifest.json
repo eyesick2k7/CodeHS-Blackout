@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "CodeHS Blackout",
+    "description": "Blacks out CodeHS's website",
+    "version": "1.6.2",
+    "icons": {
+        "348": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.codehs.com/*", "https://codehs.com/*"],
+            "js": ["content.js"]
+        }
+    ],
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "scripting"
+    ]
+}

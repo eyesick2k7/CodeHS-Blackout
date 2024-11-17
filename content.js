@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         CodeHS Blackout
-// @version      1.6.1
+// @version      1.6.2
 // @description  Makes white elements black
 // @author       eyesick2k7
 // @match        https://codehs.com/*
@@ -15,7 +15,7 @@
     function applyGlobalDarkMode()
     {
         // List of class name prefixes to exclude
-        const excludedClasses = ['btn', 'icon', 'fas', 'lesson-key', 'ace', 'asdfasdf', 'percentage-passed', 'progressbar', 'bg-blue', 'bg-slate'];
+        const excludedClasses = ['btn', 'icon', 'fas', 'lesson-key', 'ace', 'percentage-passed', 'progressbar', 'bg-blue', 'bg-slate'];
 
         // Iterate over all elements
         document.querySelectorAll('*').forEach(element =>
@@ -101,6 +101,20 @@
             {
                 element.style.setProperty('background-color', blue, 'important');
             }
+        });
+
+        const languagesText =
+        [
+            document.querySelector("#practice-wrapper > div.practice-top-nav-languages.marketing-page-new > div > a.btn.practice-nav-link.btn-main-blue"),
+            document.querySelector("#practice-wrapper > div.practice-top-nav-languages.marketing-page-new > div > a:nth-child(3)"),
+            document.querySelector("#practice-wrapper > div.practice-top-nav-languages.marketing-page-new > div > a:nth-child(4)"),
+            document.querySelector("#practice-wrapper > div.practice-top-nav-languages.marketing-page-new > div > a:nth-child(5)"),
+            document.querySelector("#practice-wrapper > div.practice-top-nav-languages.marketing-page-new > div > a:nth-child(6)")
+        ].filter(Boolean);
+        languagesText.forEach(element =>
+        {
+            element.style.setProperty('background-color', black, 'important');
+            console.log(`Languages' text backgrounds`);
         });
 
         if (lastLog === 'Fixed:') console.log('nothing');

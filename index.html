@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Blackout</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: 'Funnel Display', sans-serif;
+            background-color: rgb(0, 0, 0);
+            color: #EE2737;
+              display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 85vh;
+            height: 100vh;
+            text-align: center;
+        }
+
+
+        /* Main container styling */
+        .container {
+            background-color: black;
+            border-radius: 15px;
+            padding: 0px;
+            max-width: 500px;
+            width: 100%;
+        }
+
+        /* Inner content styling with rounded corners */
+        .inner-content {
+            background-color: #1c1c1c;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 40px;
+        }
+
+        /* Title styling */
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #EE2737;
+        }
+
+        /* Paragraph text styling */
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            color: #cccccc;
+        }
+
+        /* Button styling */
+        #myButton {
+            background-color: #EE2737;
+            color: white;
+            font-size: 1.2rem;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #myButton:hover {
+            background-color: #9e1722;
+        }
+
+        /* Responsive design for smaller screens */
+        @media (max-width: 500px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            #myButton {
+                font-size: 1rem;
+                padding: 12px 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="inner-content">
+            <h1>Canvas Blackout</h1>
+            <p>Hello user, I'm quite new to coding but I hate how there's not Canvas dark mode, please visit my Github if there's any problems, or if you have any tips.</p>
+            <a href="https://github.com/eyesick2k7/temp" target="_blank">
+                <button id="myButton" aria-label=""Visit Github">Github Link</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
