@@ -1,0 +1,301 @@
+/* ==UserStyle==
+@name         CodeHS Dark Theme
+@version      20241202.23.41
+@namespace    https://userstyles.world/user/Qyoh
+@description  a dark theme for codehs. my eyes can work again.Made by starchyunderscore on github and updated by me!
+@author       Qyoh
+@license      do whatever the fuck you want.
+==/UserStyle== */
+@-moz-document domain("codehs.com") {
+    .collapse,
+    .navbar-collapse,
+    .navbar-brand {
+        background: #1e2227 !important;
+        color: white !important;
+    }
+
+    .new-navbar.navbar .navbar-nav li a:not(.tt-suggestion) {
+        color: #848c98;
+        font-weight: 600;
+        letter-spacing: .5px;
+        font-size: 12px;
+    }
+
+    #logged-in-navbar #nav-resume .chs-icon-resume {
+        color: #6fdc8c;
+    }
+
+    .__abacus_left-tab-bar,
+    .__abacus_left-tabs,
+    .__abacus_tab-bar,
+    .__abacus_editor-tab-bar {
+        background: #23272e;
+        color: #848c98;
+    }
+
+    .__abacus_left-tab,
+    .sc-fFSPTT,
+    .fUWMBl,
+    .__abacus_file-tab {
+        background: #181b20;
+        color: #848c98;
+        ;
+        cursor: pointer;
+        border-bottom: 3px solid #0d0f14;
+    }
+
+    .__abacus_drag-bar,
+    .__abacus_drag-bar-horizontal {
+        background: #1e2227;
+    }
+
+    .__abacus_drag-bar-horizontal {
+        height: 100%;
+        width: 10px;
+        border-left: 1px solid #1e2227;
+        border-right: 1px solid #1e2227;
+        cursor: col-resize;
+    }
+
+    .file-tab-bar,
+    .hmqpxx {
+        background: #0f1014 !important;
+    }
+
+    .__abacus_tab-bar .__abacus_tab.__abacus_active {
+        background-color: #1e2227;
+        color: #848c98;
+    }
+
+    .__abacus_tab {
+        background: #1e2227;
+    }
+
+    .__abacus_tab-bar .__abacus_tab {
+        background-color: #0e161c;
+    }
+
+    .__abacus_run-bar,
+    .__abacus_light-mode {
+        background: #23272e;
+    }
+
+    .__abacus_console.__abacus_light-mode {
+        border: 1px solid #3b454b;
+    }
+
+
+    .StyledButtonKind-sc-1vhfpnt-0,
+    .fSozsy,
+    .sc-bkbkJK,
+    .eraKfR,
+    .__abacus_button,
+    .__abacus_button-light-grey {
+        color: #fff;
+    }
+
+    .__abacus_run-bar,
+    .__abacus_light-mode {
+        background: #23272e;
+    }
+
+    .__abacus_run-bar.__abacus_light-mode,
+    .__abacus_debug-bar.__abacus_light-mode {
+        background-color: #23272e;
+        color: #333;
+        border-right: #23272e;
+    }
+
+    .__abacus_stdout {
+        color: #ddd
+    }
+
+    .__abacus_clear-console-button {
+        color: #fa4d56 !important;
+    }
+
+    .__abacus_button.__abacus_runButton {
+        background-color: #6fdc8c;
+    }
+    .__abacus_button.__abacus_stopButton {
+        background-color: #fa4d56;
+    }
+
+    .StyledButtonKind-sc-1vhfpnt-0.bCsmqx.__abacus_button.__abacus_clear-console-button {
+        background: #a40000;
+    }
+
+    .__abacus_editor .__abacus_tab-bar {
+        border-bottom: 1px solid #23272e;
+        ;
+        font-size: 12px;
+    }
+
+    /* homepage(classes)
+TODO: convert assignments and lesson start page */
+    #user-page #wrapper #userpage-content {
+        background-color: #23272e;
+    }
+
+    #user-page {
+        background-color: #23272e;
+    }
+    #user-page #wrapper {
+        background-color: var(--bg-surface, #23272e);
+        .course-list-tile {
+            background-color: var(--bg-surface, #23272e);
+            border: none;
+        }
+    }
+
+    .h1,
+    h1 {
+        color: #fff;
+    }
+
+    #user-page #wrapper .course-list-tile #percentage-passed {
+        color: var(--on-bg-color-high, #fff);
+    }
+
+    #user-section-name {
+        color: var(--on-bg-color-high, #fff);
+    }
+
+
+
+
+
+    /* sliders/resizers */
+    .zo {
+        background-color: #23272e
+    }
+    .Do {
+        border-left: black;
+        border-right: black;
+    }
+
+    /* Lesson title*/
+    /* lesson title text color, kinda redundant because we changed header/body text i think */
+    .Po {
+        color: white;
+    }
+    .J {
+        background-color: #23272e;
+    }    
+
+    /* left navbar/files */
+    .t {
+        background-color: #28384a;
+    }
+    .l .c {
+        background-color: #28384a;
+    }
+    .je {
+        background-color: #23272e;
+    }    
+    #nav-search-container #nav-search-trigger {
+        background-color: #23272e;
+    }
+    #nav-search-container .fa-search {
+        color: white;
+    }
+    #editor-bottombar-nav {
+        background-color: #23272e;
+    }
+
+    .l li {
+        color: white;
+    }
+
+    /* quiz */
+    .quiz-questions li {
+        background-color: #23272e;
+    }
+    .take-quiz-page .quiz-questions > li {
+        background-color: #23272e;
+    }
+    .take-quiz-page {
+        background-color: #23272e;
+    }
+    .take-quiz-page .stats-options-container {
+        background-color: #23272e;
+    }
+
+    /*directions*/
+    #directions-modal .directions {
+        background-color: #23272e;
+    }
+    #directions-modal .top {
+        background-color: #23272e;
+        border-color: #23272e;
+    }
+    #directions-modal .bottom {
+        background-color: #23272e;
+        border-color: #23272e;
+    }
+
+    /* assignment tab */
+    .n {
+        background-color: #23272e;
+    }
+
+    /* grade tab */
+    #lms-grading-tab #current-grade-status .grade-score-container {
+        background-color: #23272e;
+    }
+    #lms-grading-tab #current-grade-status:before {
+        background-color: #23272e;
+    }
+
+    /* docs tab */
+    .loaded {
+        background-color: #23272e;
+    }
+
+    /* test cases tab 
+
+TODO: remove table: hilariously useless and redundant
+TODO: convert pass/fail popup to dark
+TODO: steal border colors from other dark mode hehehehehe 
+
+*/
+    .sticky-header {
+        background-color: #23272e;
+    }
+    pre.rounded {
+        color: white;
+    }
+    .table-header-sticky {
+        background-color: #23272e;
+    }
+    .ui-widget-content {
+        background: #23272e;
+        color: #fff;
+    }
+    .modal-content {
+        background-color: #23272e;
+    }
+    #autograder-modal {
+        color: #909090;
+        border: 1px solid rgba(0,0,0,0);
+    }
+    .modal-header {
+        border-bottom: none;
+    }
+    .modal-footer {
+        border-top: none;
+    }
+
+
+    body {
+        color: white;
+    }
+    pre {
+        background-color: #23272e;
+    }
+
+    /*TODO: add styling for all code elements*/
+    pre code {
+        color: white;
+    }
+}
