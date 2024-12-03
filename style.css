@@ -1,9 +1,10 @@
 /* ==UserStyle==
-@name           codehs.com - 10/8/2022, 6:15:18 PM
-@namespace      github.com/openstyles/stylus
-@version        1.0.0
-@description    Dark theme for CodeHS
-@author         Qyoh/starchyunderscore
+@name         CodeHS Dark Theme
+@version      20241202.23.41
+@namespace    https://userstyles.world/user/Qyoh
+@description  a dark theme for codehs. my eyes can work again.Made by starchyunderscore on github and updated by me!
+@author       Qyoh
+@license      do whatever the fuck you want.
 ==/UserStyle== */
 @-moz-document domain("codehs.com") {
     .collapse,
@@ -161,12 +162,8 @@ TODO: convert assignments and lesson start page */
     }
 
 
-    .je {
-        background-color: #23272e;
-    }
-    .J {
-        background-color: #23272e;
-    }
+
+
 
     /* sliders/resizers */
     .zo {
@@ -178,9 +175,13 @@ TODO: convert assignments and lesson start page */
     }
 
     /* Lesson title*/
+    /* lesson title text color, kinda redundant because we changed header/body text i think */
     .Po {
         color: white;
     }
+    .J {
+        background-color: #23272e;
+    }    
 
     /* left navbar/files */
     .t {
@@ -189,6 +190,9 @@ TODO: convert assignments and lesson start page */
     .l .c {
         background-color: #28384a;
     }
+    .je {
+        background-color: #23272e;
+    }    
     #nav-search-container #nav-search-trigger {
         background-color: #23272e;
     }
