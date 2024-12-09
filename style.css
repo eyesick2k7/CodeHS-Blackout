@@ -1,0 +1,197 @@
+:root {
+    --background-color: rgb(0, 0, 0);
+}
+
+/* General stuff */
+body {
+    background: var(--background-color) !important;
+}
+/*Navbar*/
+[class^="navbar"], #navbar-collapse-1, [class^="d"], .d, [class^="nav"] {
+    background: var(--background-color) !important;
+    color: white;
+}
+/*Sidebar*/
+.t, .Do {
+    background: var(--background-color) !important;
+    color: white;
+}
+[class^="sc-"] {
+    background: var(--background-color) !important;
+    color: white !important;
+    border-color: white !important;
+}
+/*Buttons*/
+.e button {
+    background: var(--background-color) !important;
+    color: white !important;
+}
+.e button:hover {
+    background: rgb(255, 255, 255, .7) !important;
+    color: black !important;
+}
+.btn, .btn-main {
+    background: var(--background-color) !important;
+    color: white !important;
+    border: solid 1px #27a9e1 !important;
+}
+.btn:hover, .btn-main:hover {
+    background: rgb(255, 255, 255, .7) !important;
+    color: black !important;
+    border: solid 1px #27a9e1 !important;
+}
+.btn:hover .icon, .btn-main:hover .icon {
+    color: var(--background-color) !important;
+}
+/*Input Box*/
+[class*="input"] {
+    background: var(--background-color) !important;
+    color: white !important;
+    border: solid 1px #27a9e1 !important;
+}
+/*Text*/
+[class*="text"], h1, h2, h3, p, #percentage-passed, .dashboard-subtitle {
+    color: white !important;
+}
+/*Text boxes*/
+textarea, select {
+    background: var(--background-color) !important;
+    color: white !important;
+}
+/*Links*/
+a {
+    color: rgb(49, 116, 192) !important;
+}
+a:hover, [class$="-link"]:hover {
+    background: var(--background-color) !important;
+    color: rgb(5, 73, 150) !important;
+}
+/*Icons (like a settings icon)*/
+svg, [class*="icon"] {
+    fill: white !important;
+    color: white !important;
+}
+
+/* My Section & universal stuff */
+/*Sidenav*/
+[class^="sidenav"], #sidenav-top-level {
+    background: var(--background-color) !important;
+    color: white !important;
+}
+#sidenav-lock-toggle {
+    background: #121212 !important;
+    color: white !important;
+}
+/*Main Screen*/
+[class^="user-page"], #userpage-content, #user-page, #wrapper, .course-list-tile {
+    background: var(--background-color) !important;
+    color: white !important;
+}
+.alert {
+    background: #121212 !important;
+    color: white !important;
+}
+.progressbar {
+    background: rgb(255, 255, 255, .4) !important;
+}
+.bg-blue, .bg-slate, #progressbar-container > div > div {
+    background: blue !important;
+}
+/*Directions*/
+[id^="directions-modal"], .top, .bottom {
+    background: var(--background-color) !important;
+    color: white !important;
+}
+pre {
+    background: #080808 !important;
+    color: white !important;
+}
+
+/* Assignments screen */
+[id^="assignments"], #all-assignments-page [class^="module"], .lesson-count, .lazy-wrap,
+.module-toggle,.bg-white, .lesson-item-wrapper, [class^="item"], .lesson-title, #user-profile {
+    background: var(--background-color) !important;
+    color: white !important;
+}
+.lesson-item-wrapper:hover {
+    background: var(--background-color) !important;
+    color: rgb(5, 73, 150) !important;
+}
+.lesson-status.finalized, .module-item.finalized {
+    background: rgb(5, 73, 150) !important;
+}
+.lesson-status.finalized:hover, .module-item.finalized:hover {
+    background: white !important;
+    color: black !important;
+    border: black !important;
+}
+.module-item.finalized:hover .icon {
+    color: black !important;
+}
+.lesson-status.not-submitted, .module-item.not-submitted {
+    color: black !important;
+    border: solid 1px black !important;
+}
+.module-item.not-submitted .icon {
+    color: black !important
+}
+.lesson-status.unopened, .module-item.unopened {
+    background: white !important;
+    color: black !important;
+}
+.module-item.unopened .icon {
+    color: black !important
+}
+
+/* Sandbox screen */
+[id^="sandbox-page"], #create-container, .sandbox-entry, .explore-container, .bg-sky-blue {
+    background: var(--background-color) !important;
+    color: white !important;
+}
+#sandbox-page .sandbox-program-container .header {
+    background: #101010 !important;
+}
+.codehs-table .codehs-table-header {
+    background: rgb(50, 115, 158) !important;
+}
+
+/* Practice screen */
+[id^="practice"], .playlist-option, .practice-title {
+    background: var(--background-color) !important;
+    color: white !important;
+}
+.practice-module {
+    background: var(--background-color) !important;
+    color: white !important;
+    border: solid 1px white !important;
+}
+
+/* Conversation screen */
+.conversation-page, .wf {
+    background: var(--background-color) !important;
+    color: white !important;
+}
+
+/* Coding screen */
+/*Code editor*/
+.J, #ace-editor, .ace_gutter {
+    background: var(--background-color) !important;
+    color: white !important;
+}
+[class*="ace"][class*="active"] {
+    background: rgb(255, 255, 255, .05) !important;
+}
+/*Output etc*/
+.s, .u, .r.c, .Ho, .U pre, .Fo, .L, .k.a, .sticky-header,
+#current-grade-status:before, .grade-score-container, [class^="grade-"] {
+    background: var(--background-color) !important;
+    color: white !important;
+}
+.r, [class^="xterm"] {
+    background: #121212 !important;
+    color: white !important;
+}
+.h, #panels > div.n > div.L > div:nth-child(3) > div > div > div.U > p:nth-child(2) {
+    background: #080808 !important;
+    color: white !important;
+}
