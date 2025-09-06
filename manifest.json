@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "CodeHS Blackout",
     "description": "Blacks out CodeHS's website",
-    "version": "0.26.1",
+    "version": "0.31.3",
     "icons": {
         "348": "icons/icon.png",
         "64": "icons/icon64.png",

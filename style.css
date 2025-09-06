@@ -49,8 +49,12 @@ body {
     color: white !important;
     border: solid 1px #27a9e1 !important;
 }
+#search-title input {
+    background: #080808 !important;
+    color: white !important;
+}
 /*Text*/
-[class*="text"], h1, h2, h3, p, #percentage-passed, .dashboard-subtitle {
+[class*="text"], h1, h2, h3, p, #percentage-passed, .dashboard-subtitle, .pln, .pun, .objective, .docs-title, .result-title {
     color: white !important;
 }
 /*Text boxes*/
@@ -142,6 +146,12 @@ pre {
 .module-item.unopened .icon {
     color: black !important
 }
+.icon-picture {
+    color: black !important;
+}
+.module-item.not-submitted:hover .icon-picture {
+    color: white !important;
+}
 
 /* Sandbox screen */
 [id^="sandbox-page"], #create-container, .sandbox-entry, .explore-container, .bg-sky-blue {
@@ -194,4 +204,67 @@ pre {
 .h, #panels > div.n > div.L > div:nth-child(3) > div > div > div.U > p:nth-child(2) {
     background: #080808 !important;
     color: white !important;
+}
+
+/* Quiz screen */
+li, .stats-options-container, .module-progress, .module-title, .lesson-content {
+    background: var(--background-color) !important;
+    color: white !important;
+}
+.quiz-question-answers>li.selected-answer {
+    outline: rgb(39, 169, 225) solid 2px !important;
+}
+.fas {
+    color: rgb(39, 169, 225)
+}
+
+/* Sandbox Quickstart */
+.page-body {
+    background-color: black !important;
+    color: white !important;
+    border: 3px solid white !important;
+}
+
+/* Certifications Screen */
+#tool-topnav {
+    background-color: black !important;
+    color: white !important;
+}
+#certifications-page {
+    background-color: black !important;
+    color: white !important;
+    border: 3px solid white !important;
+    border-radius: 20px;
+}
+
+/* Misc */
+.lesson.card, #library-main, .wrapper, #notes-item, .editor-tab-content, .editor-title, #problem-sidebar, .lesson-group.lesson-opened, #left .action {
+    background: var(--background-color) !important;
+    color: white !important;
+}
+.lession-group.lession-opened {
+    background: #3b3b3b !important;
+    color: white !important;
+}
+.lesson-number, .minimize-span {
+    color: black !important;
+}
+.module-breadcrumb {
+    color: white !important;
+}
+#game {
+    background: #313131 !important;
+}
+.wrap {
+    background: black !important;
+    color: white !important;
+    border: 3px solid white !important;
+    border-radius: 20px;
+}
+.action-badge {
+    background: black !important;
+    color: white !important;
+}
+#editor-bottombar-nav .module-item.unopened {
+    background: red !important;
 }
